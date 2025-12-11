@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0a192f;
+  --color-secondary: #112240;
+  --color-accent: #ffd700;
+  --color-text: #8892b0;
+  --color-heading: #ccd6f6;
+  
+  --font-outfit: var(--font-outfit);
+  --font-playfair: var(--font-playfair);
+}
+
+/* Custom Styles from original site - keeping some for specific overrides if needed, but Tailwind utilities should cover most */
+:root {
+  --transition: all 0.3s ease;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  font-family: var(--font-outfit);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair);
+  color: var(--color-heading);
+}
+
+a {
+  color: var(--color-accent);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-heading);
+}
+
+/* Custom Utilities - Re-implementing using the new tailwind variables where possible or keeping as helpers */
+.glass-nav {
+  background-color: rgba(10, 25, 47, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, var(--color-secondary) 0%, var(--color-primary) 100%);
+}

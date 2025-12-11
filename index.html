@@ -3,136 +3,1317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Treasure</title>
+    <title>The Treasure - Wisdom for Life</title>
     <link rel="stylesheet" href="./bootstrap-5.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
               <a class="navbar-brand" href="index.html">The Treasure</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: var(--accent-color);"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#authors">Authors</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                 </ul>
-                   </div>
+              </div>
             </div>
           </nav>
     </header>
+
     <main>
-        <div class="container">
-            <div class="row  m-3 align-items-start">
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/anthony-robbins.png" class="card-img-top" alt="anthony robbins">
-                    <div class="card-body">
-                      <h5 class="card-title">Anthony Robbins</h5>
-                      <p class="card-text">Tony Robbins American self help writer and professional speaker</p>
-                      <a href="/pages/anthony-robbins.html" class="btn btn-primary">Read More</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/dennis-waitley.png" class="card-img-top" alt="Denis Waitley">
-                    <div class="card-body">
-                      <h5 class="card-title">Denis Waitley
-                      </h5>
-                      <p class="card-text">Dennis is an American motivational speaker and writer</p>
-                      <a href="denis-waitley.html" class="btn btn-primary">Read More</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
+        <section class="hero">
+            <div class="container">
+                <h1>Unlock the Treasure Within</h1>
+                <p>Discover timeless wisdom from the world's greatest minds. Elevate your thinking, elevate your life.</p>
+                <a href="#authors" class="btn btn-custom">Explore Wisdom</a>
             </div>
-            <div class="row m-3 align-items-center">
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+        </section>
+
+        <div class="container py-5" id="authors">
+            <h2 class="section-title">Featured Authors</h2>
+            <div class="row g-4">
+                <!-- Anthony Robbins -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/anthony-robbins.png" class="card-img-top" alt="Anthony Robbins">
+                        <div class="card-body">
+                            <h5 class="card-title">Anthony Robbins</h5>
+                            <p class="card-text">Master the game of life with insights from the world's #1 life and business strategist.</p>
+                            <a href="./pages/anthony-robbins.html" class="btn btn-primary">Read Quotes</a>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <!-- Denis Waitley -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/dennis-waitley.png" class="card-img-top" alt="Denis Waitley">
+                        <div class="card-body">
+                            <h5 class="card-title">Denis Waitley</h5>
+                            <p class="card-text">Unlock the psychology of winning and high performance human achievement.</p>
+                            <a href="./pages/denis-waitley.html" class="btn btn-primary">Read Quotes</a>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <!-- Jim Rohn -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jim_Rohn.jpg/800px-Jim_Rohn.jpg" class="card-img-top" alt="Jim Rohn">
+                        <div class="card-body">
+                            <h5 class="card-title">Jim Rohn</h5>
+                            <p class="card-text">Learn the philosophy of success from the mentor of masters.</p>
+                            <a href="./pages/jim-rohn.html" class="btn btn-primary">Read Quotes</a>
+                        </div>
                     </div>
-                  </div>
-              </div>
+                </div>
             </div>
-            <div class="row m-3 align-items-end">
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="row g-4 mt-4">
+                 <!-- Zig Ziglar -->
+                 <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Zig_Ziglar.jpg" class="card-img-top" alt="Zig Ziglar">
+                        <div class="card-body">
+                            <h5 class="card-title">Zig Ziglar</h5>
+                            <p class="card-text">See you at the top with timeless motivation and sales training.</p>
+                            <a href="./pages/zig-ziglar.html" class="btn btn-primary">Read Quotes</a>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                 <!-- Les Brown -->
+                 <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Les_Brown_2019.jpg" class="card-img-top" alt="Les Brown">
+                        <div class="card-body">
+                            <h5 class="card-title">Les Brown</h5>
+                            <p class="card-text">You have greatness within you. Unleash your potential today.</p>
+                            <a href="./pages/les-brown.html" class="btn btn-primary">Read Quotes</a>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
+                </div>
             </div>
-          </div>
+            <div class="row mt-4">
+
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                BT
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Brian Tracy</h5>
+                <p class="card-text">Discover wisdom and insights from Brian Tracy.</p>
+                <a href="./pages/brian-tracy.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                DC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Dale Carnegie</h5>
+                <p class="card-text">Discover wisdom and insights from Dale Carnegie.</p>
+                <a href="./pages/dale-carnegie.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                NH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Napoleon Hill</h5>
+                <p class="card-text">Discover wisdom and insights from Napoleon Hill.</p>
+                <a href="./pages/napoleon-hill.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Stephen Covey</h5>
+                <p class="card-text">Discover wisdom and insights from Stephen Covey.</p>
+                <a href="./pages/stephen-covey.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                WD
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Wayne Dyer</h5>
+                <p class="card-text">Discover wisdom and insights from Wayne Dyer.</p>
+                <a href="./pages/wayne-dyer.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jack Canfield</h5>
+                <p class="card-text">Discover wisdom and insights from Jack Canfield.</p>
+                <a href="./pages/jack-canfield.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JCM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">John C. Maxwell</h5>
+                <p class="card-text">Discover wisdom and insights from John C. Maxwell.</p>
+                <a href="./pages/john-c-maxwell.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RK
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Robert Kiyosaki</h5>
+                <p class="card-text">Discover wisdom and insights from Robert Kiyosaki.</p>
+                <a href="./pages/robert-kiyosaki.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                EN
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Earl Nightingale</h5>
+                <p class="card-text">Discover wisdom and insights from Earl Nightingale.</p>
+                <a href="./pages/earl-nightingale.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                OM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Og Mandino</h5>
+                <p class="card-text">Discover wisdom and insights from Og Mandino.</p>
+                <a href="./pages/og-mandino.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                NVP
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Norman Vincent Peale</h5>
+                <p class="card-text">Discover wisdom and insights from Norman Vincent Peale.</p>
+                <a href="./pages/norman-vincent-peale.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                DC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Deepak Chopra</h5>
+                <p class="card-text">Discover wisdom and insights from Deepak Chopra.</p>
+                <a href="./pages/deepak-chopra.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                ET
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Eckhart Tolle</h5>
+                <p class="card-text">Discover wisdom and insights from Eckhart Tolle.</p>
+                <a href="./pages/eckhart-tolle.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                BB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Brene Brown</h5>
+                <p class="card-text">Discover wisdom and insights from Brene Brown.</p>
+                <a href="./pages/brene-brown.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Simon Sinek</h5>
+                <p class="card-text">Discover wisdom and insights from Simon Sinek.</p>
+                <a href="./pages/simon-sinek.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Malcolm Gladwell</h5>
+                <p class="card-text">Discover wisdom and insights from Malcolm Gladwell.</p>
+                <a href="./pages/malcolm-gladwell.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                TF
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Tim Ferriss</h5>
+                <p class="card-text">Discover wisdom and insights from Tim Ferriss.</p>
+                <a href="./pages/tim-ferriss.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                GV
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Gary Vaynerchuk</h5>
+                <p class="card-text">Discover wisdom and insights from Gary Vaynerchuk.</p>
+                <a href="./pages/gary-vaynerchuk.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MR
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mel Robbins</h5>
+                <p class="card-text">Discover wisdom and insights from Mel Robbins.</p>
+                <a href="./pages/mel-robbins.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                DG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">David Goggins</h5>
+                <p class="card-text">Discover wisdom and insights from David Goggins.</p>
+                <a href="./pages/david-goggins.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Robin Sharma</h5>
+                <p class="card-text">Discover wisdom and insights from Robin Sharma.</p>
+                <a href="./pages/robin-sharma.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                PC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Paulo Coelho</h5>
+                <p class="card-text">Discover wisdom and insights from Paulo Coelho.</p>
+                <a href="./pages/paulo-coelho.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MA
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Maya Angelou</h5>
+                <p class="card-text">Discover wisdom and insights from Maya Angelou.</p>
+                <a href="./pages/maya-angelou.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                OW
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Oprah Winfrey</h5>
+                <p class="card-text">Discover wisdom and insights from Oprah Winfrey.</p>
+                <a href="./pages/oprah-winfrey.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SJ
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Discover wisdom and insights from Steve Jobs.</p>
+                <a href="./pages/steve-jobs.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                EM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Elon Musk</h5>
+                <p class="card-text">Discover wisdom and insights from Elon Musk.</p>
+                <a href="./pages/elon-musk.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Richard Branson</h5>
+                <p class="card-text">Discover wisdom and insights from Richard Branson.</p>
+                <a href="./pages/richard-branson.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                WB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Warren Buffett</h5>
+                <p class="card-text">Discover wisdom and insights from Warren Buffett.</p>
+                <a href="./pages/warren-buffett.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                BG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Discover wisdom and insights from Bill Gates.</p>
+                <a href="./pages/bill-gates.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mark Cuban</h5>
+                <p class="card-text">Discover wisdom and insights from Mark Cuban.</p>
+                <a href="./pages/mark-cuban.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jeff Bezos</h5>
+                <p class="card-text">Discover wisdom and insights from Jeff Bezos.</p>
+                <a href="./pages/jeff-bezos.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Sheryl Sandberg</h5>
+                <p class="card-text">Discover wisdom and insights from Sheryl Sandberg.</p>
+                <a href="./pages/sheryl-sandberg.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MO
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Michelle Obama</h5>
+                <p class="card-text">Discover wisdom and insights from Michelle Obama.</p>
+                <a href="./pages/michelle-obama.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                IN
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Indra Nooyi</h5>
+                <p class="card-text">Discover wisdom and insights from Indra Nooyi.</p>
+                <a href="./pages/indra-nooyi.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                AH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Arianna Huffington</h5>
+                <p class="card-text">Discover wisdom and insights from Arianna Huffington.</p>
+                <a href="./pages/arianna-huffington.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SO
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Suze Orman</h5>
+                <p class="card-text">Discover wisdom and insights from Suze Orman.</p>
+                <a href="./pages/suze-orman.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                DR
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Dave Ramsey</h5>
+                <p class="card-text">Discover wisdom and insights from Dave Ramsey.</p>
+                <a href="./pages/dave-ramsey.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                GC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Grant Cardone</h5>
+                <p class="card-text">Discover wisdom and insights from Grant Cardone.</p>
+                <a href="./pages/grant-cardone.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                DJ
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Daymond John</h5>
+                <p class="card-text">Discover wisdom and insights from Daymond John.</p>
+                <a href="./pages/daymond-john.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                BC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Barbara Corcoran</h5>
+                <p class="card-text">Discover wisdom and insights from Barbara Corcoran.</p>
+                <a href="./pages/barbara-corcoran.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                KO
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Kevin O'Leary</h5>
+                <p class="card-text">Discover wisdom and insights from Kevin O'Leary.</p>
+                <a href="./pages/kevin-o-leary.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                LG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Lori Greiner</h5>
+                <p class="card-text">Discover wisdom and insights from Lori Greiner.</p>
+                <a href="./pages/lori-greiner.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Robert Herjavec</h5>
+                <p class="card-text">Discover wisdom and insights from Robert Herjavec.</p>
+                <a href="./pages/robert-herjavec.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MZ
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mark Zuckerberg</h5>
+                <p class="card-text">Discover wisdom and insights from Mark Zuckerberg.</p>
+                <a href="./pages/mark-zuckerberg.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SN
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Satya Nadella</h5>
+                <p class="card-text">Discover wisdom and insights from Satya Nadella.</p>
+                <a href="./pages/satya-nadella.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SP
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Sundar Pichai</h5>
+                <p class="card-text">Discover wisdom and insights from Sundar Pichai.</p>
+                <a href="./pages/sundar-pichai.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                TC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Tim Cook</h5>
+                <p class="card-text">Discover wisdom and insights from Tim Cook.</p>
+                <a href="./pages/tim-cook.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jensen Huang</h5>
+                <p class="card-text">Discover wisdom and insights from Jensen Huang.</p>
+                <a href="./pages/jensen-huang.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                LS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Lisa Su</h5>
+                <p class="card-text">Discover wisdom and insights from Lisa Su.</p>
+                <a href="./pages/lisa-su.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                GR
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ginni Rometty</h5>
+                <p class="card-text">Discover wisdom and insights from Ginni Rometty.</p>
+                <a href="./pages/ginni-rometty.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mary Barra</h5>
+                <p class="card-text">Discover wisdom and insights from Mary Barra.</p>
+                <a href="./pages/mary-barra.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                UB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ursula Burns</h5>
+                <p class="card-text">Discover wisdom and insights from Ursula Burns.</p>
+                <a href="./pages/ursula-burns.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Rosalind Brewer</h5>
+                <p class="card-text">Discover wisdom and insights from Rosalind Brewer.</p>
+                <a href="./pages/rosalind-brewer.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                TBD
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Thasunda Brown Duckett</h5>
+                <p class="card-text">Discover wisdom and insights from Thasunda Brown Duckett.</p>
+                <a href="./pages/thasunda-brown-duckett.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                OD
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ophelia Dahl</h5>
+                <p class="card-text">Discover wisdom and insights from Ophelia Dahl.</p>
+                <a href="./pages/ophelia-dahl.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                AD
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Angela Duckworth</h5>
+                <p class="card-text">Discover wisdom and insights from Angela Duckworth.</p>
+                <a href="./pages/angela-duckworth.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                CD
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Carol Dweck</h5>
+                <p class="card-text">Discover wisdom and insights from Carol Dweck.</p>
+                <a href="./pages/carol-dweck.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                AG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Adam Grant</h5>
+                <p class="card-text">Discover wisdom and insights from Adam Grant.</p>
+                <a href="./pages/adam-grant.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                DP
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Daniel Pink</h5>
+                <p class="card-text">Discover wisdom and insights from Daniel Pink.</p>
+                <a href="./pages/daniel-pink.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Seth Godin</h5>
+                <p class="card-text">Discover wisdom and insights from Seth Godin.</p>
+                <a href="./pages/seth-godin.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">James Clear</h5>
+                <p class="card-text">Discover wisdom and insights from James Clear.</p>
+                <a href="./pages/james-clear.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ryan Holiday</h5>
+                <p class="card-text">Discover wisdom and insights from Ryan Holiday.</p>
+                <a href="./pages/ryan-holiday.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mark Manson</h5>
+                <p class="card-text">Discover wisdom and insights from Mark Manson.</p>
+                <a href="./pages/mark-manson.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                GR
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Gretchen Rubin</h5>
+                <p class="card-text">Discover wisdom and insights from Gretchen Rubin.</p>
+                <a href="./pages/gretchen-rubin.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                EG
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Elizabeth Gilbert</h5>
+                <p class="card-text">Discover wisdom and insights from Elizabeth Gilbert.</p>
+                <a href="./pages/elizabeth-gilbert.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                CS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Cheryl Strayed</h5>
+                <p class="card-text">Discover wisdom and insights from Cheryl Strayed.</p>
+                <a href="./pages/cheryl-strayed.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                GD
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Glennon Doyle</h5>
+                <p class="card-text">Discover wisdom and insights from Glennon Doyle.</p>
+                <a href="./pages/glennon-doyle.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                AW
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Abby Wambach</h5>
+                <p class="card-text">Discover wisdom and insights from Abby Wambach.</p>
+                <a href="./pages/abby-wambach.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MR
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Megan Rapinoe</h5>
+                <p class="card-text">Discover wisdom and insights from Megan Rapinoe.</p>
+                <a href="./pages/megan-rapinoe.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SW
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Serena Williams</h5>
+                <p class="card-text">Discover wisdom and insights from Serena Williams.</p>
+                <a href="./pages/serena-williams.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                VW
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Venus Williams</h5>
+                <p class="card-text">Discover wisdom and insights from Venus Williams.</p>
+                <a href="./pages/venus-williams.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Simone Biles</h5>
+                <p class="card-text">Discover wisdom and insights from Simone Biles.</p>
+                <a href="./pages/simone-biles.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MJ
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Michael Jordan</h5>
+                <p class="card-text">Discover wisdom and insights from Michael Jordan.</p>
+                <a href="./pages/michael-jordan.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                KB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Kobe Bryant</h5>
+                <p class="card-text">Discover wisdom and insights from Kobe Bryant.</p>
+                <a href="./pages/kobe-bryant.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                LJ
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">LeBron James</h5>
+                <p class="card-text">Discover wisdom and insights from LeBron James.</p>
+                <a href="./pages/lebron-james.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                TB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Tom Brady</h5>
+                <p class="card-text">Discover wisdom and insights from Tom Brady.</p>
+                <a href="./pages/tom-brady.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                CR
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Cristiano Ronaldo</h5>
+                <p class="card-text">Discover wisdom and insights from Cristiano Ronaldo.</p>
+                <a href="./pages/cristiano-ronaldo.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                LM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Lionel Messi</h5>
+                <p class="card-text">Discover wisdom and insights from Lionel Messi.</p>
+                <a href="./pages/lionel-messi.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                UB
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Usain Bolt</h5>
+                <p class="card-text">Discover wisdom and insights from Usain Bolt.</p>
+                <a href="./pages/usain-bolt.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MP
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Michael Phelps</h5>
+                <p class="card-text">Discover wisdom and insights from Michael Phelps.</p>
+                <a href="./pages/michael-phelps.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                TW
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Tiger Woods</h5>
+                <p class="card-text">Discover wisdom and insights from Tiger Woods.</p>
+                <a href="./pages/tiger-woods.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RF
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Roger Federer</h5>
+                <p class="card-text">Discover wisdom and insights from Roger Federer.</p>
+                <a href="./pages/roger-federer.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                RN
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Rafael Nadal</h5>
+                <p class="card-text">Discover wisdom and insights from Rafael Nadal.</p>
+                <a href="./pages/rafael-nadal.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                ND
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Novak Djokovic</h5>
+                <p class="card-text">Discover wisdom and insights from Novak Djokovic.</p>
+                <a href="./pages/novak-djokovic.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                LH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Lewis Hamilton</h5>
+                <p class="card-text">Discover wisdom and insights from Lewis Hamilton.</p>
+                <a href="./pages/lewis-hamilton.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MV
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Max Verstappen</h5>
+                <p class="card-text">Discover wisdom and insights from Max Verstappen.</p>
+                <a href="./pages/max-verstappen.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                TW
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Toto Wolff</h5>
+                <p class="card-text">Discover wisdom and insights from Toto Wolff.</p>
+                <a href="./pages/toto-wolff.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                CH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Christian Horner</h5>
+                <p class="card-text">Discover wisdom and insights from Christian Horner.</p>
+                <a href="./pages/christian-horner.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                NL
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Niki Lauda</h5>
+                <p class="card-text">Discover wisdom and insights from Niki Lauda.</p>
+                <a href="./pages/niki-lauda.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                AS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ayrton Senna</h5>
+                <p class="card-text">Discover wisdom and insights from Ayrton Senna.</p>
+                <a href="./pages/ayrton-senna.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                MS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Michael Schumacher</h5>
+                <p class="card-text">Discover wisdom and insights from Michael Schumacher.</p>
+                <a href="./pages/michael-schumacher.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                AP
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Alain Prost</h5>
+                <p class="card-text">Discover wisdom and insights from Alain Prost.</p>
+                <a href="./pages/alain-prost.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JS
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jackie Stewart</h5>
+                <p class="card-text">Discover wisdom and insights from Jackie Stewart.</p>
+                <a href="./pages/jackie-stewart.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                SM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Stirling Moss</h5>
+                <p class="card-text">Discover wisdom and insights from Stirling Moss.</p>
+                <a href="./pages/stirling-moss.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JMF
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Juan Manuel Fangio</h5>
+                <p class="card-text">Discover wisdom and insights from Juan Manuel Fangio.</p>
+                <a href="./pages/juan-manuel-fangio.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                JC
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jim Clark</h5>
+                <p class="card-text">Discover wisdom and insights from Jim Clark.</p>
+                <a href="./pages/jim-clark.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                GH
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Graham Hill</h5>
+                <p class="card-text">Discover wisdom and insights from Graham Hill.</p>
+                <a href="./pages/graham-hill.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                EF
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Emerson Fittipaldi</h5>
+                <p class="card-text">Discover wisdom and insights from Emerson Fittipaldi.</p>
+                <a href="./pages/emerson-fittipaldi.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                NP
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Nelson Piquet</h5>
+                <p class="card-text">Discover wisdom and insights from Nelson Piquet.</p>
+                <a href="./pages/nelson-piquet.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div style="height: 200px; background-color: #112240; display: flex; align-items: center; justify-content: center; color: #ffd700; font-size: 2rem; font-family: 'Playfair Display', serif;">
+                NM
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Nigel Mansell</h5>
+                <p class="card-text">Discover wisdom and insights from Nigel Mansell.</p>
+                <a href="./pages/nigel-mansell.html" class="btn btn-primary">Read Quotes</a>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 The Treasure. All Rights Reserved.</p>
+        </div>
+    </footer>
     
-    <script src="./bootstrap-5.0.0/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-5.0.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
